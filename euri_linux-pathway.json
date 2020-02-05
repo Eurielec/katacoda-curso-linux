@@ -1,5 +1,11 @@
 {
   "title": "Curso de introducción a GNU/Linux",
   "description": "Iníciate en el mundillo de este sistema operativo libre",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "1a_sesion",
+      "title": "1ra Sesión",
+      "description": "Primer contacto con GNU/Linux"
+    }
+  ]
 }
