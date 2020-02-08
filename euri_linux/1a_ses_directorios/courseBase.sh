@@ -2,6 +2,7 @@ mkdir /root/uno
 mkdir /root/dos
 mkdir /root/tres
 mkdir /root/dos/libros
+mkdir /root/dos/libros/2as_matriculas
 mkdir /root/dos/otroDirectorio
 mkdir /root/dos/escuela
 mkdir /root/tres/pedal

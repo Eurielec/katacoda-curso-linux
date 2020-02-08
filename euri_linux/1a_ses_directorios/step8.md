@@ -1,5 +1,7 @@
 Una cosa cursiosa
 
+Vamos a movernos ahora a nuestro *home*. `cd`{{ execute }}
+
 El comando `echo` imprime por pantalla lo que ingresemos. Por ejemplo `echo HOLA Mundo o0`{{ execute }}.
 
 Pero sucede una cosa curiosa si ejecutamos `echo *`{{ execute }}
