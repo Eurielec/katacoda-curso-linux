@@ -1,8 +1,8 @@
 {
-  "title": "Leyendo ficheros",
-  "description": "Accederemos a los ficheros",
+  "title": "1 - Accediendo a los directorios",
+  "description": "Movernos por directorios, saber donde estamos, a donde vamos, que queremos, porque",
   "difficulty": "Beginner",
-  "time": "30",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
@@ -28,6 +28,14 @@
       {
         "title": "Step 6",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8",
+        "text": "step8.md"
       }
     ],
     "intro": {

@@ -5,8 +5,3 @@ El intérprete de comandos es quien normalmente se encarga de establecer la cone
 * `>> fich2` hace que la salida estándar sea `fich2` . Si existe el fichero `fich2` no se pierde su contenido. Se escribe a continuación. Si no existe el fichero, se crea.
 * `<< centinela` hace que la entrada estándar sean las lı́neas que vienen a continuación, terminando al encontrar *retornoDeCarro* centinela *retornoDeCarro*
 * `com1 | com2` hace que la salida estándar de `com1` se lleve a la entrada estándar de `com2`. Esto se conoce como **pipe**
-
-
-
-
----

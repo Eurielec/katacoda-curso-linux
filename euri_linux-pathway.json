@@ -3,24 +3,24 @@
   "description": "Iníciate en el mundillo de este sistema operativo libre",
   "courses": [
     {
-      "course_id": "1a_ses_directorios",
-      "title": "Directorios",
+      "course_id": "1_directorios",
+      "title": "1 - Accediendo a los directorios",
       "description": "Movernos por directorios, saber donde estamos, a donde vamos, que queremos, porque"
     },
     {
-      "course_id": "1a_ses_leer",
-      "title": "Leyendo ficheros",
-      "description": "Accederemos a los ficheros"
+      "course_id": "2_leer",
+      "title": "2 - Leyendo ficheros",
+      "description": "Imprimir por pantalla es esencial, pero no todo es imprimible..."
     },
     {
-      "course_id": "1a_ses_mover",
-      "title": "Mover, copiar y borar",
+      "course_id": "3_mover",
+      "title": "3 - Mover, copiar y borar",
       "description": "Ya sabemos movernos por el SO, vamos a mover ficheros"
     },
     {
-      "course_id": "1a_ses_pipes",
-      "title": "Tuberias",
-      "description": "Tuberias"
+      "course_id": "4_pipes",
+      "title": "4 - Pipes y redirecciones",
+      "description": "Tuberias, entradas, salidas y algunos errores"
     }
   ]
 }

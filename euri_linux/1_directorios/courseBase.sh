@@ -17,3 +17,5 @@ echo "Los filtros FIR, las convoluciones y otras transformadas" > /root/dos/libr
 echo "Lo nuestro es física o química :S" > /root/dos/libros/tipler.txt
 echo "Que esperabas encontrarte" > /root/dos/libros/.NO_LEER.txt
 echo "F" > /root/dos/libros/.entregable.txt
+
+echo -e "1234567\n1234567" | adduser usuario2

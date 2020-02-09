@@ -1,6 +1,6 @@
 {
-  "title": "Mover, copiar y borar",
-  "description": "Ya sabemos movernos por el SO, vamos a mover ficheros",
+  "title": "2 - Leyendo ficheros",
+  "description": "Imprimir por pantalla es esencial, pero no todo es imprimible...",
   "difficulty": "Beginner",
   "time": "30",
   "details": {
@@ -28,6 +28,10 @@
       {
         "title": "Step 6",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
       }
     ],
     "intro": {

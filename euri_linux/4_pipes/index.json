@@ -1,8 +1,8 @@
 {
-  "title": "1a Sesión - Accediendo a los directorios",
-  "description": "Movernos por directorios, saber donde estamos, a donde vamos, que queremos, porque",
+  "title": "4 - Pipes y redirecciones",
+  "description": "Tuberias, entradas, salidas y algunos errores",
   "difficulty": "Beginner",
-  "time": "20 minutes",
+  "time": "40",
   "details": {
     "steps": [
       {
@@ -32,10 +32,6 @@
       {
         "title": "Step 7",
         "text": "step7.md"
-      },
-      {
-        "title": "Step 8",
-        "text": "step8.md"
       }
     ],
     "intro": {
