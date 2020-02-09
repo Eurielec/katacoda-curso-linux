@@ -9,6 +9,71 @@ wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io
 echo "Primer capitulo - Piensa \nSegundo Capitulo - Dilo" > comoComunicarse.txt
 echo "Huevos \nLeche \nFruta \nVerdura \nPollo \nAtún" > listaDeLaCompra
 
+echo "La Televisión de barrido lento (Slow ScanTV, SSTV) es un método de transmisión
+de imágenes utilizado principalmente por radioaficionados para transmitir y recibir
+imágenes estáticas, en blanco y negro o en color a través de la radio.
+
+Un término técnico para la SSTV es \"televisión de banda estrecha\". La transmisión
+de televisión analógica terrestre transmitida en AM, requiere en general de un canal
+de 6 MHz (NTSC, 30 fps) o de 5,5 MHz (PAL o SECAM, 25 fps), pero la SSTV, normalmente
+sólo utiliza un máximo de 3 kHz de ancho de banda. Es un método mucho más lento de
+transmisión de imágenes ya que normalmente se tardan de entre unos ocho segundos a
+un par de minutos para transmitir un cuadro de imagen.
+
+La SSTV se transmite usando la Banda Lateral Unica, BLU (SSB en inglés), aunque
+se puede utilizar cualquier otra modulación como FM o AM.
+Dado que los sistemas de SSTV operan en frecuencias voz, los radioaficionados usan
+este sistema en las bandas de onda corta (también conocido como HF). En VHF (144 MHz )
+y UHF (432 MHz ).
+
+En Banda Ciudadana se utiliza el modo USB en la frecuencia de 27.700 MHz" > sstv
+
+echo "abstendión
+no
+si
+si
+abstendión
+si
+abstendión
+abstendión
+abstendión
+nulo
+no
+si
+no
+no
+si
+si
+no
+abstendión
+abstendión
+si
+si
+no
+abstendión
+abstendión
+no
+si
+abstendión
+nulo" > votos
+
+echo "galletas
+cereales
+pan
+leche
+tomate
+pimiento
+pepino
+pilotes
+arroz
+yogur
+mandarina
+cerveza
+chirimolla
+presules
+aceitunas
+" > comida
+
 #mkdir /root/uno
 #mkdir /root/dos
 #mkdir /root/tres

@@ -1,6 +1,6 @@
 {
-  "title": "Pipes",
-  "description": "Tuberias",
+  "title": "Pipes y redirecciones",
+  "description": "Tuberias, entradas, salidas y algunos errores",
   "difficulty": "Beginner",
   "time": "40",
   "details": {
@@ -28,6 +28,10 @@
       {
         "title": "Step 6",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
       }
     ],
     "intro": {
