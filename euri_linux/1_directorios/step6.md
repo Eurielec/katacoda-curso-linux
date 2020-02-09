@@ -9,7 +9,7 @@ Con frecuencia es más cómodo emplear paths relativos pues requieren menos escr
 * `.` Directorio actual
 * `..` Directorio padre del actual
 * `∼` Tu home (`/home/tu_usuario`)
-* `∼ usuario2` Home de usuario2 (`/home/usuario2`)
+* `∼usuario2` Home de usuario2 (`/home/usuario2`)
 
 **Ejercicio** ->
 

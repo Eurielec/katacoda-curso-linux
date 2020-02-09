@@ -7,7 +7,7 @@ El comando `cd` se puede controlar de diferentes formas:
 * `cd /`{{ execute }} Se mueve al directorio raíz
 * `cd`{{ execute }} Se mueve a `/home/tu_usuario`
 * `cd ∼`{{ execute }} Se mueve a `/home/tu_usuario`
-* `cd ∼ usuario2`{{ execute }} Se mueve a `/home/usuario2`
+* `cd ∼usuario2`{{ execute }} Se mueve a `/home/usuario2`
 
 *Pss*
 
