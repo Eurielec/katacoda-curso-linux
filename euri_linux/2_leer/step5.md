@@ -11,5 +11,3 @@ Cuando tecleamos un espacio blanco, `more` presenta casi una pantalla nueva. Si 
 `less` es un comando que admite todas las posibilidades de `more` y acepta además otros movimientos. Para no obligar al usuario a aprender nuevas asociaciones letra - movimiento, `less` toma los movimientos del editor vi y los obedece.
 
 `less cripto_gpg.md`{{ execute }}
-
-TODO: PONER COSAS DE LESS
