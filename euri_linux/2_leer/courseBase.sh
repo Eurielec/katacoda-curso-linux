@@ -13,7 +13,7 @@ Leche
 Fruta
 Verdura
 Pollo
-Atún" > listaDeLaCompra
+Atun" > listaDeLaCompra
 
 #mkdir /root/uno
 #mkdir /root/dos
