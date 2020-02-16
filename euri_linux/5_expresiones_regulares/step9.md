@@ -4,9 +4,9 @@ Las expresiones regulares exploran las lı́neas de izquierda a derecha. Entre l
 
 `echo 'alababa' > ersed`{{ execute }}
 
-`sed -e 's/a.*b/X/' ersed`
+`sed -e 's/a.*b/X/' ersed`{{ execute }}
 
-`sed -e 's/a[^b]*b/X/' ersed`
+`sed -e 's/a[^b]*b/X/' ersed`{{ execute }}
 
 
 ---
@@ -20,8 +20,9 @@ Se pueden poner referencias a subexpresiones marcadas en la segunda parte (segun
 Ahora escribiremos otro fichero para ver otro comportamiento de `sed`:
 
 `echo 'estafania' > christopher`{{ execute }}
+
 `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher`{{ execute }}
 
 El comando anterior duplica el primer par de vocales (consecutivas) que encuentre en cada lı́nea.
 
-Podemos ejecutar el siguiente comando unas cuantas veces y pasará algo muy gracioso `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher >> christopher`
+Podemos ejecutar el siguiente comando unas cuantas veces y pasará algo muy gracioso `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher >> christopher` {{ execute }}
