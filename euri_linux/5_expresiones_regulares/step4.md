@@ -6,7 +6,7 @@ Ahora veremos las siguientes expresiones regulares. Recuerda que en el *step 1* 
 
 * `[^aeiou]` - cualquier carácter excepto las vocales en minúsculas.
 
-`printf "ae a b ab j e io o" | egrep --color '[aeiou]'`{{ execute }}
+`printf "ae a b ab j e io o" | egrep --color '[^aeiou]'`{{ execute }}
 
 * `[aeiou^]` y `[a^eiou]` - cualquier vocal en minúsculas o el acento circunflejo `^`.
 
