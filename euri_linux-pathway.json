@@ -21,6 +21,11 @@
       "course_id": "4_pipes",
       "title": "4 - Pipes y redirecciones",
       "description": "Tuberias, entradas, salidas y algunos errores"
+    },
+    {
+      "course_id": "5_expresiones_regulares",
+      "title": "5 - Expresiones regulares",
+      "description": "El dominio de la terminal se encuentra en las expresiones regulares"
     }
   ]
 }
