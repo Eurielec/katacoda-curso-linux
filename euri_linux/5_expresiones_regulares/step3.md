@@ -1,18 +1,21 @@
 Ahora vamos a ver las siguientes expresiones regulares:
 
-* `\(a*b\)` - **Una (sub)expresión marcada en la que cero o más caracteres `a` van seguidos de un carácter `b`**. Las (sub)expresiones se marcan poniéndolas entre `\(` y `\)`. Con expresiones regulares modernas se marca con `(` y `)`.
+* `(a*b)` - **Expresión regular moderna - Una (sub)expresión marcada en la que cero o más caracteres `a` van seguidos de un carácter `b`**. Las (sub)expresiones se marcan poniéndolas entre `(` y `)`.
+* `\(a*b\)` - **Expresión regular antigua - Una (sub)expresión marcada en la que cero o más caracteres `a` van seguidos de un carácter `b`**. Las (sub)expresiones se marcan poniéndolas entre `\(` y `\)`.
 * `\2` - **Referencia a la segunda (sub)expresión marcada**. Cuando hacemos una referencia a una expresión marcada estamos diciendo: ‘*lo mismo, exactamente lo mismo que antes*’.
 
 Por lo que:
 
-`p.p.` - da positivo si encuentra *pepa*
-`\(p.\)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares antiguas**
-`(p.)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares modernas**
+* `p.p.` - da positivo si encuentra *pepa*
+* `\(p.\)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares antiguas**
+* `(p.)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares modernas**
 
 Podriamos comprobar que:
 
 `printf "pepe\npepa\npipo\npapa\npepo\n" | egrep --color 'p.p.'`{{ execute }}
+
 `printf "pepe\npepa\npipo\npapa\npepo\n" | egrep --color '(p.)\1'`{{ execute }}
+
 `printf "pepe\npepa\npipo\npapa\npepo\n" | grep --color '\(p.\)\1'`{{ execute }}
 
 
