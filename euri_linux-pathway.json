@@ -23,8 +23,13 @@
       "description": "Tuberias, entradas, salidas y algunos errores"
     },
     {
-      "course_id": "5_expresiones_regulares",
-      "title": "5 - Expresiones regulares",
+      "course_id": "5_buscar",
+      "title": "5 - Buscar",
+      "description": "Buscar lo que hemos perdido nos será útil cuando perdemos algo"
+    },
+    {
+      "course_id": "6_expresiones_regulares",
+      "title": "6 - Expresiones regulares",
       "description": "El dominio de la terminal se encuentra en las expresiones regulares"
     }
   ]

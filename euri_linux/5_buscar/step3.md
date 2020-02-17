@@ -1,0 +1,4 @@
+Pero las funciones del `find` no se quedan aquí puesto que nos da mucha más versatilidad puesto que disponemos de la opción `-exec`, lo interesante de esta función es que podemos ejecutar comandos para los resultados sacados del comando find. Por ejemplo `find -name *Hablar.txt -exec rm {} ';'`{{execute}}. Las llaves sirven para que el comando se ejecute de manera individual para cada resultado devuelto por el `find`.
+Cabe recalcar que la opción `-ok` es igual que `-exec` pero preguntándote si de verdad quieres realizar la instrucción.
+Otra opción que tenemos a la hora de buscar por marcadores temporales con la opción `-ctime`.
+`-size` nos facilita la búsqueda por tamaños y tenemos tres opciones (también sirve para los marcadores temporales) n, +n o -n, por ejemplo `find -size +0`{{execute}} buscará todos los archivos que su tamaño sea más de 0 bytes.
