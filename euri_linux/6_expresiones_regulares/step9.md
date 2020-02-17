@@ -25,4 +25,4 @@ Ahora escribiremos otro fichero para ver otro comportamiento de `sed`:
 
 El comando anterior duplica el primer par de vocales (consecutivas) que encuentre en cada lı́nea.
 
-Podemos ejecutar el siguiente comando unas cuantas veces y pasará algo muy gracioso `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher >> christopher` {{ execute }}
+Podemos ejecutar el siguiente comando unas cuantas veces y pasará algo muy gracioso `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher >> christopher`{{ execute }}

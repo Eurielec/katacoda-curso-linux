@@ -17,6 +17,6 @@ Cómo vemos, podemos ver el contenido del fichero `listaDeLaCompra` utilizando u
 
 Ahora veremos el siguiente comportamiento:
 
-`cat << END`
+`cat << END`{{ execute }}
 
 Prueba a escribir Algunas cosas por la entrada estándar, y prueba ahora a escribir *END*. ¿Qué ocurre?
