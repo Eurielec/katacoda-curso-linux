@@ -76,17 +76,18 @@ olives
 #mkdir /root/two
 #mkdir /root/three
 #mkdir /root/two/books
-#mkdir /root/dos/otherDirectory
-#mkdir /root/dos/school
+#mkdir /root/two/otherDirectory
+#mkdir /root/two/school
 #mkdir /root/three/pedal
 #mkdir /root/three/helmet
 
 #echo "There's nothing here" > /root/professor_oak
-#echo "You found a superball!" > /root/dos/conan
-#echo "Pssss" > /root/dos/book/page4
-#echo "Bro vente a capi" > /root/tres/pedal/cont
-#echo "First Chapter - Think - Second Chapter - Say it" > /root/dos/libros/comoComunicarse.txt
-#echo "FIR filters, convolutions and other transforms" > /root/dos/dos/libros/Oppenhein.txt
-#echo "It's either physics or chemistry :S" > /root/dos/libros/tipler.txt
-#echo "What did you expect to find" > /root/dos/books/.NO_LEER.txt
-#echo "F" > /root/dos/dos/books/.deliverable.txt
+#echo "You found a superball!" > /root/two/conan
+#echo "Pssss" > /root/two/book/page4
+#echo "Bro come party" > /root/three/pedal/cont
+#echo "First Chapter - Think - Second Chapter - 
+Say it" > /root/two/libros/comoComunicarse.txt
+#echo "FIR filters, convolutions and other transforms" > /root/two/libros/Oppenhein.txt
+#echo "It's either physics or chemistry :S" > /root/two/libros/tipler.txt
+#echo "What did you expect to find" > /root/two/books/.NO_LEER.txt
+#echo "F" > /root/two/books/.deliverable.txt
