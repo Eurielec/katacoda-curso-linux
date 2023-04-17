@@ -1,29 +1,29 @@
-Ahora veremos las siguientes expresiones regulares. Recuerda que en el *step 1* están las expresiones regulares más importantes.
+Now we will look at the following regular expressions. Remember that in *step 1* are the most important regular expressions.
 
-* `[aeiou]` - cualquier vocal en minúsculas.
+* `[aeiou]` - any lowercase vowel.
 
 `printf "ae a b ab j e io o" | egrep --color '[aeiou]'`{{ execute }}
 
-* `[^aeiou]` - cualquier carácter excepto las vocales en minúsculas.
+* `[^aeiou]` - any character except lowercase vowels.
 
-`printf "ae a b ab j e io o" | egrep --color '[^aeiou]'`{{ execute }}
+`printf "ae a b ab j e io o" | egrep --colour '[^aeiou]'`{{ execute }}
 
-* `[aeiou^]` y `[a^eiou]` - cualquier vocal en minúsculas o el acento circunflejo `^`.
+* `[aeiou^]` and `[a^eiou]` - any lower case vowel or the circumflex accent `^`.
 
-`printf "ae a b ^^ ab j e io o ^" | egrep --color '[a^eiou]'`{{ execute }}
+`printf "ae a b ^^ ab j e io o ^" | egrep --color '[a^eiiou]'`{{ execute }}
 
-* `[a-z]{4,6}` - Entre 4 y 6 letras minúsculas consecutivas. Se pone entre `{` y `}` el mı́nimo y máximo de veces que se puede repetir lo anterior. En cambio, con expresiones regulares antiguas sería `[a-z]\{4,6\}` - Entre 4 y 6 letras minúsculas consecutivas. Se pone entre `\{` y `\}` el mı́nimo y máximo de veces que se puede repetir lo anterior.
+* `[a-z]{4,6}` - Between 4 and 6 consecutive lower case letters. Put between `{` and `}` the minimum and maximum number of times the above can be repeated. With old regular expressions it would be `[a-z]\{4,6}` - Between 4 and 6 consecutive lowercase letters. The minimum and maximum number of times the above can be repeated is put between `{{` and `{}}`.
 
-`printf "aaaa aaaaaa aaaa aa aaaa aaaaaaaaa" | egrep --color '[a-z]{4,6}'`{{ execute }}
+`printf "aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaaaaaaaaaaaaa" | egrep --color '[a-z]{4,6}'`{ execute }}
 
-* `[a-z]\{7\}` - 7 letras minúsculas consecutivas.
+* `[a-z]{4,6}' - 7 consecutive lowercase letters.
 
-`printf "aaaa aaaaaa aaaa aa aaaa aaaaaaaaa" | egrep --color '[a-z]{7}'`{{ execute }}
+`printf "aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaaaaaaaaaaaaa" | egrep --color '[a-z]{7}'`{ execute }}
 
-* `[a-zA-Z0-9]*` - una secuencia (quiza vacı́a) de letras y cifras. Es parecida a un identificador del lenguaje pascal.
+* `[a-zA-Z0-9]*` - a (perhaps empty) sequence of letters and digits. It is similar to a pascal language identifier.
 
 `printf "b8 bB8a a90 a|5 ab6 # a7b a77b b77c bb aa 7b abc8 8@9 - @" | egrep --color '[a-zA-Z0-9]*'`{{ execute }}
 
-* `[a-zA-Z][a-zA-Z0-9]*` - Una letra seguida de cero o más letras o cifras. Ésta es la forma de los identificadores del lenguaje pascal.
+* `[a-zA-Z][a-zA-Z0-9]*` - A letter followed by zero or more letters or digits. This is the form of Pascal language identifiers.
 
-`printf "b8 bB8a a90 a|5 ab6 # a7b a77b b77c bb aa 7b abc8 8@9 - @" | egrep --color '[a-zA-Z][a-zA-Z0-9]*'`{{ execute }}
+`printf "b8 bB8a a90 a|5 ab6 # a7b a77b b77c bb aa 7b abc8 8@9 - @" | egrep --color '[a-zA-Z][a-zA-Z0-9]*'*'`{{ execute }}

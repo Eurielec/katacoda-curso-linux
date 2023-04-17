@@ -1,30 +1,30 @@
-**sed (stream editor)**
+**sed (stream editor)**.
 
-El programa `sed` es un editor no interactivo o editor de flujo. Que permite realizar transformaciones básicas de un flujo de entrada (un fichero o una entrada desde una tubería).
+The `sed` program is a non-interactive editor or stream editor. It allows basic transformations of an input stream (a file or an input from a pipe).
 
-El formato (para substituciones) es el siguiente:
+The format (for substitutions) is as follows:
 
-`sed [opciones] 's/REGEXP/reemplazo/flag' [fichero]`
+`sed [options] 's/REGEXP/replace/flag' [file]`.
 
-Algunos comandos:
-* `s` substitución
-* `d` borrado
-* `i\`, `a\`, añade antes/después de la línea afectada
-* `c\` reemplaza la línea afectada
+Some commands:
+* `s` substitution
+* `d` deletion
+* `i`, `a`, add before/after the affected line
+* `c` replace the affected line
 
-Algunas opciones:
-* `-e` comando: añade comando
-* `-i` edita el fichero in-place
-* `-n` suprime la salida
+Some options:
+* `-e` command: add command
+* `-i` edits the in-place file
+* `-n` suppresses output
 
-Algunos flags:
-* `g:` aplica los cambios globalmente (por defecto, sólo se cambia la primera aparición en cada línea)
-* `p` imprime las líneas afectadas, incluso con la opción `-n`.
-* `w fichero`: escribe las líneas con sustituciones al fichero indicado
+Some flags:
+* `g:` applies changes globally (by default, only the first occurrence on each line is changed) * `-p` prints affected lines, even with `-p` option.
+* `p` prints the affected lines, even with the `-n` option.
+* `w file`: writes the lines with substitutions to the specified file.
 
 
-**Importante recalcar que sed utilizar expresiones regulares antiguas**.
+**It is important to note that you need to use old regular expressions**.
 
-Un ejemplillo del uso de `sed`:
+A small example of how to use `sed`:
 
-`printf "abajhbab" | sed -e "s/\(.\)\(.\)\1/X/g"`{{ execute }}
+`printf "abajhbab" | sed -e "s/\(.\)"`{ execute }}

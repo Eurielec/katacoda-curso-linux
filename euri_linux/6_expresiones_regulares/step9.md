@@ -1,6 +1,6 @@
-**Substituciones con `vi` o `sed`**
+**Substitutions with `vi` or `sed`**.
 
-Las expresiones regulares exploran las lı́neas de izquierda a derecha. Entre las secuencias situadas más a la izquierda seleccionan la más larga. Por ejemplo, en una lı́nea tenemos alababa y queremos substituir los caracteres entre una `a` y una `b` inclusive por una `X` . Hay cinco posibles secuencias. Más tarde imponemos que no haya ninguna b en medio de la secuencia a substituir. Hay tres posibles secuencias.
+Regular expressions scan the lines from left to right. Among the leftmost sequences, they select the longest one. For example, in one line we have alababa and we want to replace the characters between an `a` and a `b` inclusive by an `X` . There are five possible sequences. Later we impose that there is no b in the middle of the sequence to be substituted. There are three possible sequences.
 
 `echo 'alababa' > ersed`{{ execute }}
 
@@ -11,18 +11,18 @@ Las expresiones regulares exploran las lı́neas de izquierda a derecha. Entre l
 
 ---
 
-Se pueden poner referencias a subexpresiones marcadas en la segunda parte (segundo parámetro) de una substitución.
+You can put references to marked subexpressions in the second part (second parameter) of a substitution.
 
 `echo 'a8b a6c b8b a98b' > solomon`{{ execute }}
 
-`sed -e 's/a\([0-9]*\)b/A\1B/g' solomon`{{ execute }} substituye la secuencia: un carácter `a`, seguido de cifras (o ninguna), seguido de un carácter `b` por un carácter `A`, seguido de esas mismas cifras seguido de un carácter `B` (todas las veces que lo encuentre).
+`sed -e 's/a\([0-9]*)b/A\1B/g' solomon`{{ execute }} substitutes the sequence: an `a` character, followed by digits (or none), followed by a `b` character with an `A` character, followed by those same digits followed by a `B` character (as many times as it finds it).
 
-Ahora escribiremos otro fichero para ver otro comportamiento de `sed`:
+Now let's write another file to see another behaviour of `sed`:
 
-`echo 'estafania' > christopher`{{ execute }}
+`echo 'stafania' > christopher`{{ execute }}
 
-`sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher`{{ execute }}
+`sed -e 's/\([aeiou][aeiou]/\1/g' christopher`{ execute }}
 
-El comando anterior duplica el primer par de vocales (consecutivas) que encuentre en cada lı́nea.
+The above command duplicates the first pair of (consecutive) vowels it finds in each line.
 
-Podemos ejecutar el siguiente comando unas cuantas veces y pasará algo muy gracioso `sed -e 's/\([aeiou][aeiou]\)/\1\1/g' christopher >> christopher`{{ execute }}
+We can run the following command a few times and something very funny will happen `sed -e 's/\([aeiou][aeiou][aeiou]/1/g' christopher >> christopher`{ execute }}

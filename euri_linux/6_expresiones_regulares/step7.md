@@ -1,14 +1,14 @@
-Si queremos utilizar el poder de las expresiones regulares con `ls` por ejemplo se haría así:
+If we want to use the power of regular expressions with `ls` for example it would look like this:
 
-`ls | egrep '^a.txt'`{{ execute }} Busca ficheros que se llamen `a.txt`. En carácter `^` indica el inicio de linea.
-`ls | egrep '^(a)(.)\1.txt'`{{ execute }} Busca ficheros que se llamen `a` seguido de un caracter y luego `a.txt`. Por ejemplo `aba.txt`
+`ls | egrep '^a.txt'`{{ execute }} Search for files named `a.txt`. The `^` character indicates the start of the line.
+`ls | egrep '^(a)(.)\1.txt'`{ execute }} Search for files named `a` followed by a character and then `a.txt`. For example `aba.txt`.
 
-Crea algunos ficheros con diferentes nombres (usando el comando `touch`), y comprueba el uso de las expresiones regulares vistas anteriormente.
+Create some files with different names (using the `touch` command), and check the use of the regular expressions seen above.
 
-Psss... Que no termina ahí
+Psss... It doesn't end there
 
-Con las expresiones regulares podriamos eliminar ficheros que tienen un patrón en su nombre, utilizando pipes. Para eliminarlos sería con:
+With regular expressions we could delete files that have a pattern in their name, using pipes. To remove them would be with:
 
-`ls | egrep '^a.txt' | xargs -d "\n" rm`{{ execute }}
+`ls | egrep '^a.txt' | xargs -d "d" rm`{{ execute }}
 
-Comprueba su uso
+Check its use

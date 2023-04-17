@@ -1,28 +1,28 @@
-Ahora vamos a ver las siguientes expresiones regulares:
+Now let's look at the following regular expressions:
 
-* `(a*b)` - **Expresión regular moderna - Una (sub)expresión marcada en la que cero o más caracteres `a` van seguidos de un carácter `b`**. Las (sub)expresiones se marcan poniéndolas entre `(` y `)`.
-* `\(a*b\)` - **Expresión regular antigua - Una (sub)expresión marcada en la que cero o más caracteres `a` van seguidos de un carácter `b`**. Las (sub)expresiones se marcan poniéndolas entre `\(` y `\)`.
-* `\2` - **Referencia a la segunda (sub)expresión marcada**. Cuando hacemos una referencia a una expresión marcada estamos diciendo: ‘*lo mismo, exactamente lo mismo que antes*’.
+* `(a*b)` - **Modern regular expression - A marked (sub)expression in which zero or more `a` characters are followed by a `b`** character. (Sub)expressions are marked by placing them between `(` and `)`.
+* (sub)expressions are marked by placing them between `(` and `)`. (Sub)expressions are marked by placing them between `(`) and `(b)`.
+* Reference to the second marked (sub)expression**. When we make a reference to a marked expression we are saying: ``the same, exactly the same as before``.
 
-Por lo que:
+So:
 
-* `p.p.` - da positivo si encuentra *pepa*
-* `\(p.\)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares antiguas**
-* `(p.)\1` - no se ajusta *pepa*, y sı́ *pepe*, **utilizando expresiones regulares modernas**
+* `p.p.` - gives true if it finds *pepa*.
+* ``(p.p.)1` - does not match *pepa*, and does match *pepepe*, **using old regular expressions**.
+* `(p.)\1` - does not match *pepa*, and yes *pepepe*, **using modern regular expressions**.
 
-Podriamos comprobar que:
+We could check that:
 
-`printf "pepe\npepa\npipo\npapa\npepo\n" | egrep --color 'p.p.'`{{ execute }}
+`printf "pepepepepepepepepepepepepe" | egrep --color 'p.p.'`{{ execute }}
 
-`printf "pepe\npepa\npipo\npapa\npepo\n" | egrep --color '(p.)\1'`{{ execute }}
+`printf "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe" | egrep --color '(p.)1'`{ execute }}}
 
-`printf "pepe\npepa\npipo\npapa\npepo\n" | grep --color '\(p.\)\1'`{{ execute }}
+`printf "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe "pepe" | grep --color '(p.\1'`{ execute }}}
 
 
-Ahora bien. Si imprimimos el siguiente fichero:
+Now then. If we print the following file:
 
-`printf "aa aba apa aabs abba baab bab"`
+`printf "aa aba apa aabs abba baab bab"`.
 
-¿Cómo se haría para imprimir sólo `abba` y `baab`?
+How would you print only `abba` and `baab`?
 
-Se podría hacer con `printf "aa aba aabs abba baab bab" | egrep --color "(.)(.)\2\1"`{{execute}}
+You could do it with `printf "aa aba aba aabs abba baab bab" | egrep --color "(.)(.)` `{{execute}}

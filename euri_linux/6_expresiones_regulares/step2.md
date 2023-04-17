@@ -1,23 +1,23 @@
-Vamos a ir repasando una a una algunas de las expresiones regulares más usadas.  Nos centraremos por ahora en las siguientes:
+We are going to go through some of the most used regular expressions one by one.  We will focus on the following for now:
 
-*  `.` - cualquier carácter, excepto el cambio de lı́nea (ascii 10 decimal).
-* `?` - Cero o una referencia del caracter previo. **Se trata de una expresión regular moderna**.
-* `*` - Representa cualquier string de caracteres
+* `.` - any character, except line shift (ascii 10 decimal).
+* `?` - Zero or a reference to the previous character. **This is a modern regular expression**.
+* `*` - Represents any string of characters.
 
-Cómo se trata de expresiones regulares modernas, utilizaremos `egrep`, la evolución de `grep`. A partir de este momento utilizaremos la opción de `egrep` para pintar los resultados, `--color`.
+As these are modern regular expressions, we will use `egrep`, the evolution of `grep`. From now on we will use the `-egrep` option to paint the results, `--colour`.
 
-Podemos ver las diferencias de cada expresión regular con los siguientes ejemplos:
+We can see the differences in each regular expression with the following examples:
 
-`printf "colour\ncolor\ncolouur\n" | egrep --color 'colou?r'`{{ execute }}
+`printf "colour colour" | egrep --colour 'colou?r'`{ execute }}
 
-`printf "colour\ncolor\ncolouur\n" | egrep --color 'colou*r'`{{ execute }}
+`printf "colour colour colour colour" | egrep --colour 'colou*r'`{{ execute }}
 
-`printf "colour\ncolor\ncolouur\n" | egrep --color 'colo.r'`{{ execute }}
+`printf "colour colour colour" | egrep --colour 'colo.r'`{ execute }} `printf "colour colour colour" | egrep --colour 'colo.r'`{ execute }}
 
-`printf "colour\ncolor\ncolouur\n" | egrep --color 'colou.r'`{{ execute }}
+`printf "colour colour colour" | egrep --colour 'colou.r'`{ execute }}
 
-Las diferencias entre `?` y `.` pueden confundir un poco. Lo podemos ver mejor con el siguiente ejemplo:
+The differences between `?` and `.` can be a little confusing. We can see it better with the following example:
 
-`printf "error\neror\ner\n" | egrep --color 'er?or'`{{ execute }}
+`printf "error "error" | egrep --colour 'er?or'`{ execute }}
 
-`printf "error\neror\ner\n" | egrep --color 'er*or'`{{ execute }}
+`printf "error "error" | egrep --color 'er*or'`{ execute }}

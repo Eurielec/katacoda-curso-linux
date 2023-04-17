@@ -1,28 +1,28 @@
-Tenemos las siguientes expresiones regules, que está bien remalcarlas otra vez:
-* `.*` - cualquier tira de caracteres (incluyendo la tira vacı́a o de longitud nula).
-* `..*` - cualquier tira de caracteres (con al menos un carácter).
+We have the following regular expressions, which it is good to highlight again:
+* `.*` - any character strip (including empty or null length strip).
+* `..*` - any character strip (with at least one character).
 
-Podemos ver ahora los siguientes ejemplos.
+We can now look at the following examples.
 
-* `\([0-9]\)\1` - Un número capicúa de dos cifras.
+* ``([0-9]\1`) - A two-digit capicua number.
 
-`printf "989 9 898 22 33 678" | egrep --color '([0-9])\1'`{{ execute }}
+`printf "989 9 898 22 33 678" | egrep --colour '([0-9])\1'`{ execute }}
 
-* `(.)\1` - dos caracteres *consecutivos* iguales.
+* `(.)\1` - two equal *consecutive* characters.
 
-`printf "aa\nab\nabahgj\njj" | egrep --color '(.)\1'`{{ execute }}
 
-* `\(.\).*\1` - dos caracteres repetidos.
 
-`printf "aa\nab\nabahgj\njj\nahjkla" | egrep --color '(.).*\1'`{{ execute }}
+* ``(.\).*\1` - two characters repeated.
 
-* `(..*)\1` - dos secuencias repetidas y consecutivas
 
-`printf "aaaa\naaabbaabb\nabahgj\njj" | egrep --color '(..*)\1'`{{ execute }}
 
-* `(..*).*\1` - dos secuencias repetidas
+* `(...*)1` - two sequences repeated consecutively
 
-`printf "aaaa\naaabbaabb\nabahgj\njj" | egrep --color '(..*).*\1'`{{ execute }}
 
-¿Cómo se buscaría un número de 5 cifras capicua?
-¿Cómo se haría con 5 letras capicua?
+
+* `(..*).* "- two repeated sequences
+
+
+
+How would you search for a 5-digit capicua number?
+How would you do it with 5 capicua letters?
