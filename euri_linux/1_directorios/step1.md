@@ -1,5 +1,5 @@
-Por defecto, al loguearnos en una shell, nos encontraremos en nuestro directorio personal (/home/usuario), ya que de forma predeterminada la shell nos posiciona ahí.
+By default, when logging into a shell, we will find ourselves in our home directory (/home/user), since by default the shell places us there.
 
-Para saber en qué ruta estamos escribrimos `pwd`{{execute}}
+To find out which path we are in, we type pwd{{execute}}.
 
-También podemos apreciar que en los sistemas operativos basados en Unix los directorios se separan mediante el carácter «/» en vez del usado por Windows, «\».
+We can also see that in Unix-based operating systems the directories are separated by the character "/" instead of the one used by Windows, "/".
