@@ -28,9 +28,9 @@
       "description": "Buscar lo que hemos perdido nos será útil cuando perdemos algo"
     },
     {
-      "course_id": "6_expresiones_regulares",
-      "title": "6 - Expresiones regulares",
-      "description": "El dominio de la terminal se encuentra en las expresiones regulares"
+      "course_id": "6_regular_expressions",
+      "title": "6 - Regular Expressions",
+      "description": "The domain of the terminal is in regular expressions"
     }
   ]
 }
