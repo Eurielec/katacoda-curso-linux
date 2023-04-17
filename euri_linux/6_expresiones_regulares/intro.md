@@ -1,1 +1,1 @@
-Las expresiones regulares son una herramienta muy poderosa que nos vendrá bien saber que existen. Se puede hacer magia, pero hay que entenderlas bien.
+Regular expressions are a very powerful tool that we could do with knowing they exist. You can do magic, but you have to understand them well.
