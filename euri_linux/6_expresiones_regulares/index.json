@@ -1,6 +1,6 @@
 {
-  "title": "6 - Expresiones regulares",
-  "description": "El dominio de la terminal se encuentra en las expresiones regulares",
+  "title": "6 - Regular Expressions",
+  "description": "The domain of the terminal is in regular expressions",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
@@ -50,9 +50,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal".
   },
   "backend": {
     "imageid": "ubuntu1804"
   }
 }
+
