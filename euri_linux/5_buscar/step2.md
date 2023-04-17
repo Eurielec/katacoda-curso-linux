@@ -1,8 +1,8 @@
-En cambio la herramienta `find` es sumamente útil para buscar ficheros en un directorio concreto. Lo que esta sentencia hace es recorrer el árbol de directorios a partir de uno o varios directorios indicados (o en el que estamos por defecto).
+The `find` tool, on the other hand, is extremely useful for finding files in a specific directory. What this statement does is to go through the directory tree starting from one or more directories indicated (or the default one).
 
-Las diferentes formas de uso de este comando son las siguientes:
+The different ways to use this command are the following:
 
-* `find`{{execute}} listará todos los ficheros del directorio actual y sus subdirectorios y como extensión si sentenciamos `find \dos`{{execute}} realizará lo mismo pero en el directorio 'dos'.
-* `find -name xxx` solo listará los ficheros con el patrón xxx en su nombre, podemos hacer por ejemplo `find -name comoComunicarse.txt`{{execute}} y vemos que nos lista los ficheros que tengan comoComunicarse.txt como nombre. Una función interesante es el uso de *iname* en vez de *name*, ya que la primera es insensible a mayúsculas, encontrándonos un resultado para `find -name comocomunicarse.txt`{{execute}} no nos devolverá resultado, pero `find -iname comocomunicarse.txt`{{execute}} sí.
-* `find -type x` opción muy útil ya que nos permite filtrar los resultados por tipos de fichero: `find -type d`{{execute}} nos devolverá los directorios, `find -type |` los enlaces simbólicos y la opción `find -type f` mostrará todos los ficheros corrientes.
-* Obviamente también podremos hacer combinación de todas las instrucciones anteriores como: `find \dos -name como* -type f`{{execute}}.
+* `find`{{execute}} will list all the files in the current directory and its subdirectories and as an extension if we sentence `find `{execute}} it will do the same but in directory 'two'.
+* `find -name xxx` will only list files with the pattern xxx in their name, we can do for example `find -name asCommunicate.txt`{{execute}} and we see that it lists the files that have asCommunicate.txt as their name. An interesting function is the use of *iname* instead of *name*, as the former is case insensitive, finding a result for `find -name ascommunicate.txt`{{execute}} will not return a result, but `find -iname ascommunicate.txt`{{execute}} will.
+* `find -type x` is a very useful option as it allows us to filter the results by file type: `find -type d`{{execute}} will return directories, `find -type |` will return symbolic links and `find -type f` will show all current files.
+* Obviously we can also do a combination of all the above instructions like: `find -dos -name as* -type f`{{execute}}.

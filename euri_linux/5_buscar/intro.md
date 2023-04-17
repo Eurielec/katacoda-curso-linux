@@ -1,1 +1,1 @@
-En esta sesión, aprenderemos a buscar por nuestro sistema de ficheros
+In this session, we will learn how to search through our file system
