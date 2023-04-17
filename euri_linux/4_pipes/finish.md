@@ -1,5 +1,5 @@
-Bien!
+Well, good!
 
-En el siguiente escenario veremos una de las cosas más chulas que tendremos que dominar para volvernos unos expertos en GNU/Linux.
+In the next scenario we will see one of the coolest things we will have to master to become a GNU/Linux expert.
 
-Sigue! Nos vemos en el próximos escenario!
+Keep going! See you in the next scenario!

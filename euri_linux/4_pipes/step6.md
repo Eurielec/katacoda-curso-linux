@@ -1,15 +1,15 @@
-Comando `tee`
+Command `tee` command
 
 `who | tee tmp | wc -l | cat - tmp`{{ execute }}
 
-Cuatro comandos trabajan en cadena. La salida de un comando sirve de entrada al siguiente.
-* `who` describe las sesiones en el sistema.
-* `tee tmp` saca dos copias de los caracteres que lee. Una copia va a la salida estándar, y la otra al fichero `tmp`.
-* `wc -l` cuenta las lı́neas que le llegan.
-* `cat - tmp` concatena lo que lee por la entrada estándar ( - ) con el fichero `tmp`.
+Four commands work in a chain. The output of one command serves as input to the next.
+* `who` describes the sessions on the system.
+* `tee tmp` takes two copies of the characters it reads. One copy goes to standard output, the other to the `tmp` file.
+* `wc -l` counts incoming lines.
+* `cat - tmp` concatenates what it reads from the standard input ( - ) with the `tmp` file.
 
-El comando `tee` nos sirve para sacar dos copias de una información, una para su proceso inmediato.
+The `tee` command is used to make two copies of a piece of information, one for immediate processing.
 
-Otro ejemplillo:
+Another example:
 
-`cat votos | grep "nulo" | tee file2.txt | wc -l`{{ execute }}
+`cat votes | grep "null" | tee file2.txt | wc -l`{{ execute }}

@@ -1,94 +1,92 @@
+# Put photos and the like in here
 
-
-# Meter aqui fotos y cosas por el estilo
-
-wget https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png -O foto.png
+wget https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png -O photo.png
 wget https://upload.wikimedia.org/wikipedia/commons/c/ce/SSTV_sunset_audio.ogg -O sstv.ogg
-wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-07-14-Criptografia-GPG-PGP.md -O cripto_gpg.md
-wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -o taller_ropa.txt
-echo "Primer capitulo - Piensa \nSegundo Capitulo - Dilo" > comoComunicarse.txt
-echo "Huevos \nLeche \nFruta \nVerdura \nPollo \nAtún" > listaDeLaCompra
+wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-07-14-Criptografia-GPG-PGP.md -O crypto_gpg.md
+wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -O garment_workshop.txt
+echo "First chapter - Think - Second chapter - Say it" > asCommunicate.txt
+echo "Eggs \nMilk \nFruit \nVegetables \nChicken \nTuna" > shoppingList
 
-echo "La Televisión de barrido lento (Slow ScanTV, SSTV) es un método de transmisión
-de imágenes utilizado principalmente por radioaficionados para transmitir y recibir
-imágenes estáticas, en blanco y negro o en color a través de la radio.
+echo "Slow ScanTV (SSTV) is a method of transmitting images mainly used by radio amateurs
+used primarily by radio amateurs to transmit and receive static, black-and-white images.
+static, black-and-white or colour images via radio.
 
-Un término técnico para la SSTV es \"televisión de banda estrecha\". La transmisión
-de televisión analógica terrestre transmitida en AM, requiere en general de un canal
-de 6 MHz (NTSC, 30 fps) o de 5,5 MHz (PAL o SECAM, 25 fps), pero la SSTV, normalmente
-sólo utiliza un máximo de 3 kHz de ancho de banda. Es un método mucho más lento de
-transmisión de imágenes ya que normalmente se tardan de entre unos ocho segundos a
-un par de minutos para transmitir un cuadro de imagen.
+A technical term for SSTV is "narrowband television". Analogue terrestrial
+analogue terrestrial television broadcasting in AM, generally requires a 6 MHz channel (NTSC, NTSC, NTSC-AC, NTSC-AC, NTSC-AC).
+of 6 MHz (NTSC, 30 fps) or 5.5 MHz (PAL or SECAM, 25 fps), but SSTV typically only uses a maximum of 3 kHz (NTSC, 30 fps) or 5.5 MHz (PAL or SECAM, 25 fps).
+only uses a maximum of 3 kHz bandwidth. It is a much slower method of
+transmission of pictures as it normally takes between about eight seconds to a couple of minutes to transmit a single frame.
+a couple of minutes to transmit a picture frame.
 
-La SSTV se transmite usando la Banda Lateral Unica, BLU (SSB en inglés), aunque
-se puede utilizar cualquier otra modulación como FM o AM.
-Dado que los sistemas de SSTV operan en frecuencias voz, los radioaficionados usan
-este sistema en las bandas de onda corta (también conocido como HF). En VHF (144 MHz )
-y UHF (432 MHz ).
+SSTV is transmitted using Single Side Band, SSB (SSB), although any other modulation can be used as a modulation, such as
+any other modulation such as FM or AM can be used.
+Since SSTV systems operate on voice frequencies, radio amateurs use SSTV on the shortwave bands.
+this system on the shortwave (also known as HF) bands. On VHF (144 MHz )
+and UHF (432 MHz ).
 
-En Banda Ciudadana se utiliza el modo USB en la frecuencia de 27.700 MHz" > sstv
+In Citizens Band, the USB mode is used on the 27.700 MHz frequency" > sstv
 
-echo "abstendión
+echo "abstention
 no
-si
-si
-abstendión
-si
-abstendión
-abstendión
-abstendión
-nulo
+yes
+yes
+abstention
+yes
+abstention
+abstention
+abstention
+null
 no
-si
+yes
 no
 no
-si
-si
+yes
+yes
 no
-abstendión
-abstendión
-si
-si
+abstention
+abstention
+yes
+yes
 no
-abstendión
-abstendión
+abstention
+abstention
 no
-si
-abstendión
-nulo" > votos
+yes
+abstention
+null" > votes
 
-echo "galletas
-cereales
-pan
-leche
-tomate
-pimiento
-pepino
-pilotes
-arroz
-yogur
-mandarina
-cerveza
-chirimolla
+echo "biscuits
+cereals
+bread
+milk
+tomato
+pepper
+cucumber
+piles
+rice
+yoghurt
+mandarin
+beer
+custard apple
 presules
-aceitunas
-" > comida
+olives
+"> food
 
-#mkdir /root/uno
-#mkdir /root/dos
-#mkdir /root/tres
-#mkdir /root/dos/libros
-#mkdir /root/dos/otroDirectorio
-#mkdir /root/dos/escuela
-#mkdir /root/tres/pedal
-#mkdir /root/tres/casco
+#mkdir /root/one
+#mkdir /root/two
+#mkdir /root/three
+#mkdir /root/two/books
+#mkdir /root/dos/otherDirectory
+#mkdir /root/dos/school
+#mkdir /root/three/pedal
+#mkdir /root/three/helmet
 
-#echo "No hay nada aqui" > /root/profesor_oak
-#echo "Encontraste una superbola!" > /root/dos/conan
-#echo "Pssss" > /root/dos/libro/pagina4
+#echo "There's nothing here" > /root/professor_oak
+#echo "You found a superball!" > /root/dos/conan
+#echo "Pssss" > /root/dos/book/page4
 #echo "Bro vente a capi" > /root/tres/pedal/cont
-#echo "Primer capitulo - Piensa \nSegundo Capitulo - Dilo" > /root/dos/libros/comoComunicarse.txt
-#echo "Los filtros FIR, las convoluciones y otras transformadas" > /root/dos/libros/Oppenhein.txt
-#echo "Lo nuestro es física o química :S" > /root/dos/libros/tipler.txt
-#echo "Que esperabas encontrarte" > /root/dos/libros/.NO_LEER.txt
-#echo "F" > /root/dos/libros/.entregable.txt
+#echo "First Chapter - Think - Second Chapter - Say it" > /root/dos/libros/comoComunicarse.txt
+#echo "FIR filters, convolutions and other transforms" > /root/dos/dos/libros/Oppenhein.txt
+#echo "It's either physics or chemistry :S" > /root/dos/libros/tipler.txt
+#echo "What did you expect to find" > /root/dos/books/.NO_LEER.txt
+#echo "F" > /root/dos/dos/books/.deliverable.txt

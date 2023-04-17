@@ -1,22 +1,22 @@
-Redirección de la entrada estándar
+Redirection of standard input
 
-Si escribimos el comando `cat` *a secas*, nos redirige la entrada estándar a la salida estándar. Pruébalo
+If you type the command `cat` *just*, it redirects standard input to standard output. Try it
 
 `cat`{{ execute }}
 
-Para salir, podemos pulsar *Ctrl-D*. Es importante recalcar lo siguiente:
-* *Ctrl-D* Le envia la señal *EOF* a la entrada estándar. Y el programa `cat` lo interpreta para salirse
-* *Ctrl-C* Aborta la aplicación
-* *Ctrl-Z* La lleva al *background*
+To exit, we can press *Ctrl-D*. It is important to note the following:
+* *Ctrl-D* sends the *EOF* signal to the standard input. And the `cat` program interprets it to exit.
+* *Ctrl-C* Abort the application.
+* *Ctrl-Z* takes it to the *background*.
 
-Con el comportamiento del comando `cat` podemos ver lo siguiente:
+With the behaviour of the `cat` command we can see the following:
 
-`cat < listaDeLaCompra`{{ execute }}
+`cat < listBuyList`{{ execute }}
 
-Cómo vemos, podemos ver el contenido del fichero `listaDeLaCompra` utilizando una redirección (normalmente no utilizará así).
+As we can see, we can see the content of the file `purchaseList` using a redirect (normally it will not use this way).
 
-Ahora veremos el siguiente comportamiento:
+Now we will see the following behaviour:
 
-`cat << END`{{ execute }}
+`cat << END`{{{ execute }}
 
-Prueba a escribir Algunas cosas por la entrada estándar, y prueba ahora a escribir *END*. ¿Qué ocurre?
+Try typing some things through the standard input, and now try typing *END*. What happens?

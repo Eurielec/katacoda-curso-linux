@@ -1,7 +1,7 @@
-El intérprete de comandos es quien normalmente se encarga de establecer la conexión entre la entrada y la salida estándar con los ficheros o con otros procesos. Se llama redirección a este cambio del origen y destino de las lecturas y escrituras. El usuario indica al intérprete de comandos las redirecciones que desea mediante unos convenios.
+The command interpreter is normally responsible for establishing the connection between standard input and output to files or other processes. This change of the source and destination of reads and writes is called redirection. The user tells the shell which redirects he wants by means of conventions.
 
-* `< fich1` hace que la entrada estándar sea `fich1`.
-* `> fich2` hace que la salida estándar sea `fich2`. Si existe el fichero `fich2` se pierde su contenido previo. Si no existe el fichero, se crea.
-* `>> fich2` hace que la salida estándar sea `fich2` . Si existe el fichero `fich2` no se pierde su contenido. Se escribe a continuación. Si no existe el fichero, se crea.
-* `<< centinela` hace que la entrada estándar sean las lı́neas que vienen a continuación, terminando al encontrar *retornoDeCarro* centinela *retornoDeCarro*
-* `com1 | com2` hace que la salida estándar de `com1` se lleve a la entrada estándar de `com2`. Esto se conoce como **pipe**
+* `< fich1` makes the standard input `fich1`.
+* `> fich2` makes the standard output `fich2`. If the file `file2` exists, its previous contents are lost. If the file does not exist, it is created.
+* ` `>> fich2` causes the standard output to be `fich2` . If file `file2` exists, its contents are not lost. It is then written. If the file does not exist, it is created.
+`<< sentinel` makes the standard input the lines below, terminating on finding *sentinel *sentinel *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel*.
+* `com1 | com2` causes the standard output of `com1` to be carried to the standard input of `com2`. This is known as **pipe**.

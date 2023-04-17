@@ -1,29 +1,29 @@
-El comando `grep` busca un patrón en un fichero. Se podría utilizar con `grep Fruta listaDeLaCompra`{{ execute }}
+The `grep` command searches for a pattern in a file. It could be used with `grep FruitPurchaseList`{{ execute }}
 
-Además, si no metemos ningún fichero al comando `grep`, buscará el patrón por la entrada estándar. Podremos utilizar el comando con el siguiente *pipe*
+Also, if you don't put any file into the `grep` command, it will search for the pattern by standard input. You can use the command with the following *pipe*
 
 `cat sstv | grep MHz`{{ execute }}
 
-Y con el uso de los muy útiles *pipes*, podemos contar el número de resultados de lo que estamos buscando con `wc`
+And with the use of the very useful *pipe*, we can count the number of results of what we are looking for with `wc`.
 
 `cat sstv | grep MHz | wc`{{ execute }}
 
-Existe un comando para ordenar el contenido de un fichero y pasarlo por la entrada estándar, este es `sort`. En cambio `uniq -c` escribe cuántas veces se repite de forma consecutiva cada lı́nea.
+There is a command to sort the contents of a file and pass it through standard input, this is `sort`. Instead `uniq -c` writes how many times each line is repeated consecutively.
 
-Usando los pipes podríamos hacer lo siguiente:
+Using pipes we could do the following:
 
-`sort votos | uniq -c`{{ execute }}
+`sort votes | uniq -c`{{ execute }}
 
-Otra forma muy útil para usar los *pipes* es con el comando `history`, que nos imprime por pantalla el historial de comandos. Si se nos ha olvidado cómo utilizamos un comando en el pasado, podremos buscarlo con `grep`
+Another useful way to use *pipes* is with the `history` command, which prints out the command history. If you have forgotten how you used a command in the past, you can look it up with `grep`.
 
 `history | grep cat`{{ execute }}
 
-Si tenemos la salida de un comando que es muy grande, podemos redirigirlo hacia el programa `less` que nos lo pondrá por pantalla de forma más ordenada:
+If you have command output that is very large, you can redirect it to the `less` program which will display it in a more orderly fashion:
 
 `ls -l | less`
 
-Luego, contamos con algunos filtros que hemos visto, como el de `head` o `tail`, que podremos utilizar con los *pipes*.
+Then, we have some of the filters we have seen, such as `head` or `tail`, which we can use with the *pipes.
 
-`cat comida | head -7`{{ execute }}
+`cat food | head -7`{{ execute }}
 
-Ejercicio -> ¿Cómo se consigue que solo salga *leche* y *tomate* en la salida estándar?
+Exercise -> How do you get only *milk* and *tomato* in the standard output?

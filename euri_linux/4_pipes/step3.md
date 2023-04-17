@@ -1,23 +1,23 @@
-Ejecutaremos el siguiente comando:
+Execute the following command:
 
-`cat > carta`{{ execute }}
+`cat > letter`{{ execute }}
 
-Como hemos visto, cuando el comando `cat` no tiene parámetros copia la entrada estándar a la salida estándar.
+As we have seen, when the `cat` command has no parameters it copies the standard input to the standard output.
 
-Pero en este caso se está redirigido la entrada estándar al fichero `carta`.
+But in this case it is redirecting the standard input to the `letter` file.
 
-Ahora vamos a repetir el comando, `cat > carta`{{ execute }}
+Now let's repeat the command, `cat > letter`{{ execute }}
 
-Veremos que el fichero ha sido sobrescrito por la sentencia anterior, y ha desaparecido lo que teniamos previamente en `carta`.
+We will see that the file has been overwritten by the previous statement, and what we previously had in `letter` has disappeared.
 
-`(date ; who) > quienyCuando`{{ execute }} redirige la salida de los comandos `date` y `who` al fichero `quienyCuando`.
+`(date ; who) > whoandWhen`{{ execute }} redirects the output of the `date` and `who` commands to the `whoandWhen` file.
 
-La redirección afecta a los dos comandos porque están encerrados entre paréntesis. La salida de `who` va a continuación de la salida de `date`.
+The redirection affects both commands because they are enclosed in parentheses. The output of `who` follows the output of `date`.
 
-`(date ; who) >> quienyCuando`{{ execute }} redirige la salida de los comandos `date` y `who` al fichero `quienyCuando` escribiendo a continuación de lo que habı́a. Tenemos ası́ dos fechas y dos listas de sesiones.
+`(date ; who) >> whoandWhen`{{ execute }} redirects the output of the `date` and `who` commands to the `whoandWhen` file by writing after what was there. So we have two dates and two session lists.
 
-Juntando todo lo que hemos aprendido de redirecciones:
+Putting together everything we've learned about redirects:
 
-`cat << END > entrada`{{ execute }}
+`cat << END > input`{{ execute }}
 
-¿Puedes juntar los contenidos de dos ficheros en otro?, sólo utilizando redirecciones (con el comando `cat` sin ningún parámetro).
+Can you join the contents of two files into one file, just by using redirects (with the `cat` command without any parameters).
