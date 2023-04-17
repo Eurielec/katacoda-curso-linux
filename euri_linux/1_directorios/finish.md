@@ -1,3 +1,3 @@
-Bien!
+Good!
 
-Puedes seguir con este curso en el siguiente escenario. Lo próximo será aprender a leer ficheros!
+You can continue with this course in the next scenario. Next you will learn how to read files!
