@@ -4,4 +4,4 @@ The command interpreter is normally responsible for establishing the connection 
 * `> fich2` makes the standard output `fich2`. If the file `file2` exists, its previous contents are lost. If the file does not exist, it is created.
 * ` `>> fich2` causes the standard output to be `fich2` . If file `file2` exists, its contents are not lost. It is then written. If the file does not exist, it is created.
 * `<< sentinel` makes the standard input the lines below, terminating on finding *sentinel *sentinel *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel* *sentinel*.
-* `com1 | com2`causes the standard output of `com1`to be carried to the standar input of `com2`. This is know as **pipe**.
+* `comm1 | comm2` causes the standard output of `comm1` to be carried to the standar input of `comm2`. This is know as **pipe**.
