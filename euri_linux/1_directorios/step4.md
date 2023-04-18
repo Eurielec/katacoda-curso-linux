@@ -1,25 +1,25 @@
-Ahora vamos a irnos a la ruta `/root/dos/libros` donde tendremos distintos ficheros.
+Now let's go to the `/root/dos/books` path where we will have different files.
 
-`cd /root/dos/libros`{{ execute }}
+`cd /root/dos/books`{{ execute }}
 
-Si listamos todos los ficheros en `/root/dos/libros` con `ls`{{ execute }} veremos que lo contienen algunos ficheros y un directorio.
+If we list all the files in `/root/dos/books` with `ls`{{ execute }} we will see that it contains some files and a directory.
 
-En cambio, si los listamos con `ls -la`{{ execute }} veremos que tenemos ficheros *ocultos*.
+If we list them with `ls -la`{{ execute }} we will see that we have *hidden* files.
 
-Fíjate en las diferencias entre cada fichero, ¿Qué es cada cosa?
+Look at the differences between each file, what is each thing?
 
-Los caracteres del principio de cada línea (e.g. «drwxr-xr-r») nos indican los permisos que tiene
-cada archivo (la letra «d» indica que se trata de un directorio). Analicemos esta parte: si todos los
-permisos estuviesen disponibles para todos los usuarios, tendríamos algo así:
+The characters at the beginning of each line (e.g. "drwxr-xr-r") tell us what permissions each file has (the letter "d").
+(the letter "d" indicates that it is a directory). Let's analyse this part: if all
+permissions were available to all users, we would have something like this:
 
-`-rwxrwxrwx`
+`-rwxrwxrwx`.
 
-El carácter «r» significa que existe permiso de lectura (read), «w» permiso de escritura (write) y
-«x» de ejecución. Los tres primeros caracteres indican los permisos que tiene el propietario; los tres
-siguientes, los permisos del grupo; los tres últimos, los permisos del resto de usuarios. El quinto campo nos presenta el tamaño del objeto medido en caracteres. Los campos sexto, séptimo y octavo nos indican la fecha y hora de la última modificación del fichero.
+The "r" character means read permission, "w" means write permission, "x" means execute permission.
+"x" for execution. The first three characters indicate the permissions of the owner; the next three characters indicate the permissions of the group; the following three characters indicate the permissions of the group.
+The next three, the permissions of the group; the last three, the permissions of the other users. The fifth field shows the size of the object measured in characters. The sixth, seventh and eighth fields give the date and time the file was last modified.
 
-Algunas versiones de ls presentan la fecha de última modificación con todo detalle cuando se pide con la opción `--full-time`
+Some versions of ls display the last modification date in detail when prompted with the `--full-time` option.
 
 `ls -l --full-time`{{ execute }}
 
-**¿Qué son los directorios `.` y `..`?**
+**What are the directories `.` and `..`?**

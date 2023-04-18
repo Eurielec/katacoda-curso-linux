@@ -1,6 +1,6 @@
-Para empezar nuestro primer contacto con el sistema GNU/Linux veremos como movernos por el sistema de ficheros.
+To begin our first contact with the GNU/Linux system, we will see how to move around the file system.
 
-Aprenderemos a movernos, la diferencia entre rutas relativas y absolutas, listar ficheros, y algunas cosas más.
+We will learn how to move around, the difference between relative and absolute paths, list files, and a few other things.
 
 
 Enjoy it!

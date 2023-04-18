@@ -1,11 +1,11 @@
-Una cosa cursiosa
+A funny thing
 
-Vamos a movernos ahora a nuestro *home*. `cd`{{ execute }}
+Let's move now to our *home*. `cd`{{ execute }}
 
-El comando `echo` imprime por pantalla lo que ingresemos. Por ejemplo `echo HOLA Mundo o0`{{ execute }}.
+The `echo` command prints out what we enter. For example `echo HOLA World o0`{{ execute }}.
 
-Pero sucede una cosa curiosa si ejecutamos `echo *`{{ execute }}
+But a funny thing happens if we run `echo *`{{{ execute }}}.
 
-Aquı́ hay algo extraño. Si echo repite los parámetros esperamos que escriba un asterisco (\*). ¿Por qué sucede esto?
+There's something strange here. If echo repeats the parameters we expect it to write an asterisk (\*). Why does this happen?
 
-La clave está en que ha intervenido el *intérprete de comandos*. El intérprete de comandos ha substituido el asterisco por la lista ordenada (según el código ascii) de nombres de objetos que no empiezan por punto. Luego, el intérprete de comandos ha llamado al programa echo pasándole como parámetros esa lista de nombres.
+The key is that the *command interpreter* has intervened. The command interpreter has replaced the asterisk with the ordered (ascii-coded) list of object names that do not begin with a full stop. The command interpreter then called the echo program by passing that list of names as parameters.

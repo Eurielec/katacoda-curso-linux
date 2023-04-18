@@ -1,4 +1,4 @@
-Bucear en el sistema de ficheros puede convertirse en una tediosa tarea.
+Diving into the file system can be a tedious task.
 
-El comando `tree`{{ execute }} brinda una vista de pájaro del árbol del sistema de ficheros. Usando `tree -d`{{ execute }}
-solamente se listan los directorios.
+The `tree`{{ execute }} command provides a bird's eye view of the file system tree. Using `tree -d`{{ execute }}
+only directories are listed.

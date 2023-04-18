@@ -1,9 +1,9 @@
-Para listar el contenido de un directorio se utiliza el comando `ls`{{ execute }}, que mostrará por pantalla los
-archivos presentes en el directorio actual.
+To list the contents of a directory, the `ls`{{ execute }} command is used, which will display the files present in the current directory.
+files present in the current directory.
 
-Para listar el contenido de una ruta específica se lo pasamos como argumento `ls /root/dos/libros`{{ execute }}
+To list the contents of a specific path, we pass it as an argument `ls /root/dos/books`{{ execute }}.
 
-El comando `ls`, tiene diferentes opciones:
-* Con `ls -l`{{ execute }} listamos los archivos mostrando su tamaño, permisos y propietario.
-* con `ls -a`{{ execute}} Lista todos los ficheros, incluso los ocultos. Los ficheros que comiencen con «.» (e.g. .bashrc, .config) son archivos ocultos y son útiles cuando tenemos archivos que queremos que estén en un determinado sitio pero no queremos que se muestren de forma normal. Generalmente esto se hace para mejorar la lectura de los elementos del directorio.
-* Con `ls -r`{{ execute }} Lista los archivos siguiendo el orden inverso al normal. Si no se especifica nada, el orden siempre es alfabético. Con la opción -t el orden del listado es la fecha de la última modificación.
+The command `ls`, has different options:
+* with `ls -l`{{ execute }} we list the files showing their size, permissions and owner.
+* with `ls -a`{{ execute}} List all files, including hidden files. Files starting with a "." (e.g. .bashrc, .config) are hidden files and are useful when you have files that you want to be in a certain place but don't want them to show up normally. Generally this is done to improve the readability of directory items.
+* With `ls -r`{{ execute }} Lists the files in reverse order to the normal order. If nothing is specified, the order is always alphabetical. With the -t option the listing order is the date of last modification.

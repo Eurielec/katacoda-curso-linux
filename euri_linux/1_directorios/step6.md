@@ -1,18 +1,18 @@
-El *“path”* es el termino anglosajón empleado para describir la ruta a un fichero o directorio objetivo. Existen dos formas de identificar path:
-* Path absoluto: Comienza en el directorio raíz y sigue el árbol de directorios rama por rama hasta alcanzar el directorio o fichero objetivo. Los paths absolutos siempre comienzan por /. Por ejemplo `cd /root/dos/otroDirectorio`{{ execute }}
-* Path relativo: Comienza en el directorio actual de trabajo. Los paths relativos nunca comienzan por /. Por ejemplo `cd ~/dos/otroDirectorio`{{ execute }}
+The *"path "* is the Anglo-Saxon term used to describe the path to a target file or directory. There are two ways to identify path:
+* Absolute path: Starts at the root directory and follows the directory tree branch by branch until it reaches the target directory or file. Absolute paths always start with /. For example `cd /root/dos/anotherDirectory`{{ execute }}
+* Relative path: Starts in the current working directory. Relative paths never start with /. For example `cd ~/dos/anotherDirectory`{{ execute }}
 
-Está permitido escribir múltiples barras oblicuas (`/` o *slash*) entre directorios y el fichero, el sistema ignora los que hay en exceso. En resumen, `////usr//bin` es válido pues el sistema lo interpreta como `/usr/bin`. Ej: `cd //root////dos//otroDirectorio`{{ execute }}
+Multiple slashes (`/` or *slash*) are allowed between directories and the file, the system ignores the excess. In short, `////usr//bin` is valid because the system interprets it as `/usr/bin`. E.g.: `cd //root////dos///anotherDirectory`{{ execute }}
 
-Con frecuencia es más cómodo emplear paths relativos pues requieren menos escritura. Su principal ventaja es que disponemos de los siguientes atajos:
+It is often more convenient to use relative paths as they require less typing. Their main advantage is that the following shortcuts are available:
 
-* `.` Directorio actual
-* `..` Directorio padre del actual
-* `∼` Tu home (`/home/tu_usuario`)
-* `∼usuario2` Home de usuario2 (`/home/usuario2`)
+* `.` Current directory
+* `..` Directory father of the current
+* `∼` Home (`/home/tu_usuario`)
+* `∼usuario33` usuario33's home (`/home/usuario33`)
 
 **Ejercicio** ->
 
-Posicionate en `/root/dos/otroDirectorio`. Intenta ir a `/root/tres/casco`.
+Go to `/root/dos/otroDirectorio`. Try going to `/root/tres/casco`.
 
-En principio hay 3 formas. Utilizando una ruta absoluta y utilizando ruta relativa con `~` o `../../`. ¿Hay alguna otra forma?
+In principle there are 3 ways. Using an absolute path and using relative path with `~` or `../../`. Is there any other way?

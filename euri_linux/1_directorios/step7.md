@@ -1,11 +1,11 @@
-El comando `cd` recuerda su última posición, y te permite volver a ella empleando `cd -`. Para recordar directorios anteriores disponemos de `pushd`. Este comando además de movernos al directorio deseado (como lo haría `cd`), almacena el directorio anterior en una pila. Para volver al último directorio insertado en la citada pila disponemos de `popd`. La pila de directorios puede mostrarse usando el comando `dirs`.
+The `cd` command remembers its last position, and allows you to return to it by using `cd -`. To remember previous directories we have `pushd`. This command not only moves you to the desired directory (as `cd` would do), but also stores the previous directory in a stack. To return to the last directory on the stack, `popd` is available. The directory stack can be displayed using the `dirs` command.
 
-Te puedes ir a `/root/tres/pedal` con `pushd /root/tres/pedal`{{ execute }}, luego moverte a `/root/uno` con `pushd /root/uno`{{ execute }}.
+You can go to `/root/tres/pedal` with `pushd /root/tres/pedal`{{ execute }}, then move to `/root/uno` with `pushd /root/uno`{{ execute }}.
 
-Ahora puedes listar tu cola de directorios con `dirs`{{ execute }}
+Now you can list your directory queue with `dirs`{{{ execute }}}
 
-Y volver a donde estabas con `popd`{{ execute }}
+And go back to where you were with `popd`{{ execute }}
 
-Ejercicio-
+Exercise-
 
-Muévete por el sistema de ficheros con `pushd` y `popd`.
+Move around the filesystem with `pushd` and `popd`.
