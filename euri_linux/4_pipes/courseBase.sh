@@ -86,8 +86,8 @@ olives
 #echo "Pssss" > /root/two/book/page4
 #echo "Bro come party" > /root/three/pedal/cont
 #echo "First Chapter - Think - Second Chapter - 
-Say it" > /root/two/libros/comoComunicarse.txt
-#echo "FIR filters, convolutions and other transforms" > /root/two/libros/Oppenhein.txt
-#echo "It's either physics or chemistry :S" > /root/two/libros/tipler.txt
+Say it" > /root/two/libros/howToCommunicate.txt
+#echo "FIR filters, convolutions and other transforms" > /root/two/books/Oppenhein.txt
+#echo "It's either physics or chemistry :S" > /root/two/books/tipler.txt
 #echo "What did you expect to find" > /root/two/books/.NO_LEER.txt
 #echo "F" > /root/two/books/.deliverable.txt

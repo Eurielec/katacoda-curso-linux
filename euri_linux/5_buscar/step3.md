@@ -1,4 +1,4 @@
-Pero las funciones del `find` no se quedan aquí puesto que nos da mucha más versatilidad puesto que disponemos de la opción `-exec`, lo interesante de esta función es que podemos ejecutar comandos para los resultados sacados del comando find. Por ejemplo `find -name *Hablar.txt -exec rm {} ';'`{{execute}}. Las llaves sirven para que el comando se ejecute de manera individual para cada resultado devuelto por el `find`.
-Cabe recalcar que la opción `-ok` es igual que `-exec` pero preguntándote si de verdad quieres realizar la instrucción.
-Otra opción que tenemos a la hora de buscar por marcadores temporales con la opción `-ctime`.
-`-size` nos facilita la búsqueda por tamaños y tenemos tres opciones (también sirve para los marcadores temporales) n, +n o -n, por ejemplo `find -size +0`{{execute}} buscará todos los archivos que su tamaño sea más de 0 bytes.
+But the `find` functions don't stop here as it gives us much more versatility since we have the `-exec` option, the interesting thing about this function is that we can execute commands for the results taken from the find command. For example `find -name *Talk.txt -exec rm {} ';'`{{execute}}. The braces are used so that the command is executed individually for each result returned by the `find`.
+It should be noted that the `-ok` option is the same as `-exec` but asks if you really want to perform the command.
+Another option we have when searching for time markers is the `-ctime` option.
+The `-size` option makes it easy to search by size and we have three options (also for time stamps) n, +n or -n, e.g. `find -size +0`{{execute}} will search for all files that are larger than 0 bytes.
