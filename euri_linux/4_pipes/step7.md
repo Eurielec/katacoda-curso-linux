@@ -1,6 +1,6 @@
 When executing commands, by default we have three file streams (or descriptors): **standard input** (standard input, standard in or stdin), **standard output** (standard output, standard out or stdout) and **standard error output** (standard error or stderr). Usually stdin is the keyboard and stdout and stderr are displayed on the terminal.
 
-* 0` Standard input (stdin)
+* `0` Standard input (stdin)
 * `1` Standard output (stdout)
 * `2` Standard error output (stderr)
 
