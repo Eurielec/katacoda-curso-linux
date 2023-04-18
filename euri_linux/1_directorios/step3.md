@@ -1,7 +1,7 @@
 To list the contents of a directory, the `ls`{{ execute }} command is used, which will display the files present in the current directory.
 files present in the current directory.
 
-To list the contents of a specific path, we pass it as an argument `ls /root/dos/books`{{ execute }}.
+To list the contents of a specific path, we pass it as an argument `ls /root/two/books`{{ execute }}.
 
 The command `ls`, has different options:
 * with `ls -l`{{ execute }} we list the files showing their size, permissions and owner.
