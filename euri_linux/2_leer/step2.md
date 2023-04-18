@@ -1,15 +1,15 @@
-No conviene que enviemos cualquier fichero a pantalla sin cuidado. Algunos ficheros pueden enviarse a pantalla sin preocuparse. Todos sus caracteres son imprimibles. Otros ficheros conviene no enviarlos directamente a pantalla. Tienen caracteres no imprimibles.
+It is not a good idea to send any file to the screen carelessly. Some files can be sent to the screen without worrying. All their characters are printable. Other files should not be sent directly to the screen. They have non-printable characters.
 
-Si se envı́a a pantalla un fichero con caracteres no imprimibles puede suceder que lo que veamos no se corresponda con el contenido, puede que la pantalla quede en un modo tal que todo lo que venga a continuación sea ilegible, o puede que quede bloqueada. Nada de esto es irreversible, pero es bastante molesto.
+If a file with non-printable characters is sent to the screen, it may happen that what you see does not correspond to the content, the screen may be left in such a way that everything that follows is unreadable, or it may be locked. None of this is irreversible, but it is quite annoying.
 
 `cat /bin/ls`{{ execute }}
 
-Con el comando `file` podemos ver que tipo de archivo se trata sin tener que abrirlo.
+With the `file` command we can see what type of file it is without having to open it.
 
-Ahora ejecutaremos `file *`{{ execute }}
+Now we run `file *`{{ execute }}
 
-El intérprete de comandos toma la lı́nea `file *` y substituye `*` por todos los elementos en el directorio.
+The shell takes the `file *` line and substitutes `*` for all items in the directory.
 
-El comando file intenta determinar el tipo de los objetos cuyos nombres aparecen como parámetros. La mayor parte de las veces los nombres corresponden a ficheros. Empieza observando si el fichero tiene caracteres no imprimibles.
+The file command attempts to determine the type of the objects whose names appear as parameters. Most of the time the names are file names. It starts by looking to see if the file has non-printable characters.
 
-Cuando el fichero tiene caracteres no imprimibles estudia sus dos o cuatro primeros octetos. Si esos primeros octetos toman unos valores reconocidos, `file` indica el tipo de objeto asociado.
+When the file has non-printable characters, it studies its first two or four octets. If those first octets take recognised values, `file` indicates the associated object type.

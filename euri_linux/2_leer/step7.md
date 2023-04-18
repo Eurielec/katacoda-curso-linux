@@ -1,7 +1,7 @@
-Por otra parte si queremos buscar en un fichero utilizaremos la herramienta `grep`.
+On the other hand, if we want to search a file, we use the `grep` tool.
 
-Con `grep` extrae las lı́neas que contengan la tira de caracteres indicada.
+With `grep` it extracts the lines containing the specified character string.
 
 `grep Hora taller_ropa.txt`{{ execute}}
 
-¿Cómo hariamos para buscar `GPG` en el fichero `cripto_gpg.md`?
+How would we search for `GPG` in the `cripto_gpg.md` file?

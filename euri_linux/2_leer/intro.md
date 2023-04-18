@@ -1,5 +1,5 @@
-Imprimir por pantalla es escencial para controlar tus ficheros. No todos son imprimibles, no todos son importantes...
+Screen printing is essential to keep track of your files. Not all of them are printable, not all of them are important...
 
-En esta sesión aprenderas a leer ficheros, a contar lineas, a buscar, y alguna cosilla más.
+In this session you will learn how to read files, how to count lines, how to search, and a little bit more.
 
 Enjoy!

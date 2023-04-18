@@ -1,13 +1,13 @@
-**Para ver ficheros medianos o grandes**
+**To view medium or large files**
 
-Si enviamos a pantalla un fichero grande, las lı́neas vuelan, pasan ante nuestros ojos sin que seamos capaces de leerlas. Aunque vayan despacio es posible que queramos examinar con cuidado una fórmula, una sentencia (¿judicial?, ¿informática?), ...
+If we send a large file to the screen, the lines fly, they pass before our eyes without us being able to read them. Even if they go slowly, we may want to look carefully at a formula, a sentence (judicial? computer?), ...
 
-Queremos que hasta que no digamos: - más - la salida de caracteres por pantalla se detenga y no se pierda información por la parte superior de la pantalla. Ese “más” da nombre al comando que nos ayudará: `more`
+We want that until we say: - more - the output of characters on the screen stops and no information is lost at the top of the screen. That "more" gives the name to the command that will help us: `more`.
 
 `more cripto_gpg.md`{{ execute }}
 
-Cuando tecleamos un espacio blanco, `more` presenta casi una pantalla nueva. Si tecleamos retorno de carro el texto avanza una lı́nea. Si tecleamos *eslás* (/) el cursor baja a la última lı́nea. Los siguientes caracteres que tecleamos aparecen en la última lı́nea. Cuando damos retorno de carro, `more` busca la secuencia indicada en el texto no presentado. La pantalla presenta en una de sus primeras lı́neas la tira de caracteres buscada. Un espacio blanco o un retorno de carro al final del fichero acaba la sesión con el comando `more`. Otra forma de acabar la sesión es tecleando `q` (de quit).
+When we type a whitespace, `more` presents almost a new screen. Typing carriage return moves the text forward one line. Typing *slashes* (/) moves the cursor down to the last line. The next characters we type appear on the last line. When we give carriage return, `more` searches for the sequence indicated in the text not presented. The screen displays the searched character string on one of its first lines. A whitespace or carriage return at the end of the file ends the session with the `more` command. Another way to end the session is to type `q` (for quit).
 
-`less` es un comando que admite todas las posibilidades de `more` y acepta además otros movimientos. Para no obligar al usuario a aprender nuevas asociaciones letra - movimiento, `less` toma los movimientos del editor vi y los obedece.
+The `less` is a command that supports all the possibilities of `more` and accepts other moves as well. In order not to force the user to learn new letter-move associations, `less` takes the moves from the vi editor and obeys them.
 
 `less cripto_gpg.md`{{ execute }}

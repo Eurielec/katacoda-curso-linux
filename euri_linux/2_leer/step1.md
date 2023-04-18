@@ -1,8 +1,8 @@
-Linux está provisto de comandos capaces de mostar el contenido de un fichero, crear un fichero o un fichero vacío, alterar los atriburos temporales (timestamp) de un fichero, y borrar o renombrar un fichero o directorio. Estos comandos, útiles en manejo de datos y ficheros, son los que posibilitan que los datos oportunos estén disponibles en una cierta localización. En esta sección se detalla todo lo relacionado con el manejo de ficheros.
+Linux provides commands capable of displaying the contents of a file, creating a file or an empty file, altering the timestamp of a file, and deleting or renaming a file or directory. These commands, useful in data and file management, are what make it possible to make data available in a certain location. This section details everything related to file management.
 
-Utilidades disponibles para visionar ficheros:
-* `cat` Imprime el fichero entero en pantalla, se emplea para ficheros cortos pues no provee desplazamiento vertical
-* `tac` Igual a cat salvo porque invierte el fichero linea a linea
-* `less` Es un programa de visionado de documentos, se emplea en ficheros extensos pues dispone de desplazamiento, y funciones de búsqueda. Nota: Se emplea `/` para buscar un patrón hacia delante y `?` para buscarlo hacia atrás
-* `tail` Imprime las últimas 10 lineas de un fichero, por defecto. Se puede alterar el número de lineas que muestra con, por ejemplo, `-n3` o `-3` para mostrar sólo 3 lineas.
-* `head` El opuesto a tail, por defecto imprime las primeras 10 lineas
+Utilities available for viewing files:
+* `cat` Prints the entire file on screen, used for short files as it does not provide vertical scrolling.
+* `tac` Same as cat except that it inverts the file line by line.
+* `less` Is a document viewing program, used for large files as it provides scrolling, and search functions. Note: `/` is used to search forward for a pattern and `?` is used to search backward for a pattern.
+* ``tail` Prints the last 10 lines of a file, by default. You can alter the number of lines displayed with, for example, `-n3` or `-3` to display only 3 lines.
+* `head` The opposite of tail, by default prints the first 10 lines.

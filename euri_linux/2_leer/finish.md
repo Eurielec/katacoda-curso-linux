@@ -1,3 +1,3 @@
-Bien!
+Good!
 
-No pares! Puedes continuar con este curso con el siguiente escenario para aprender a mover ficheros.
+Don't stop! You can continue this course with the following scenario to learn how to move files.
