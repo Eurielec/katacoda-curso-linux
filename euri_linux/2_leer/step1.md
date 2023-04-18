@@ -4,5 +4,5 @@ Utilities available for viewing files:
 * `cat` Prints the entire file on screen, used for short files as it does not provide vertical scrolling.
 * `tac` Same as cat except that it inverts the file line by line.
 * `less` Is a document viewing program, used for large files as it provides scrolling, and search functions. Note: `/` is used to search forward for a pattern and `?` is used to search backward for a pattern.
-* ``tail` Prints the last 10 lines of a file, by default. You can alter the number of lines displayed with, for example, `-n3` or `-3` to display only 3 lines.
+* `tail` Prints the last 10 lines of a file, by default. You can alter the number of lines displayed with, for example, `-n3` or `-3` to display only 3 lines.
 * `head` The opposite of tail, by default prints the first 10 lines.
