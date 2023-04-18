@@ -11,9 +11,9 @@ To exit, we can press *Ctrl-D*. It is important to note the following:
 
 With the behaviour of the `cat` command we can see the following:
 
-`cat < listBuyList`{{ execute }}
+`cat < shoppingList`{{ execute }}
 
-As we can see, we can see the content of the file `purchaseList` using a redirect (normally it will not use this way).
+As we can see, we can see the content of the file `shoppingList` using a redirect (normally it will not use this way).
 
 Now we will see the following behaviour:
 
