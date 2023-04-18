@@ -5,7 +5,7 @@
 wget https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png -O foto.png
 wget https://upload.wikimedia.org/wikipedia/commons/c/ce/SSTV_sunset_audio.ogg -O sstv.ogg
 wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-07-14-Criptografia-GPG-PGP.md -O cripto_gpg.md
-wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -O taller_ropa.txt
+wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -O clothing_workshop.txt
 echo "EL NANO AO" > howToText.txt
 echo "EGGS
 MILK
