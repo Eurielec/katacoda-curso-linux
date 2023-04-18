@@ -2,7 +2,7 @@ The `locate` tool searches a database of local files and directories. As you can
 
 Let's see a couple of examples:
 
-* `locate howToComunicate.txt`{{execute}} Will return the path of the file asCommunicate.txt
+* `locate howToText.txt`{{execute}} Will return the path of the file howToText.txt
 *  `locate *.txt`{{execute}} Return all paths to all files that are text notes or .txt.
 
 You can also use the pipe system explained above:
