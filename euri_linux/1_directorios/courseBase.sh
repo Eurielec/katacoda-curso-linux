@@ -15,7 +15,7 @@ echo "EL NANO AE" > /root/three/pedal/cont
 echo "EL NANO AO" > /root/two/books/howToText.txt
 echo "NO QUIERO A BARRICHELO SCHUMACHER NI AL BATOON" > /root/two/books/Oppenhein.txt
 echo "PORQUE ES EL NANO" > /root/two/books/tipler.txt
-echo "What did you expect" > /root/two/books/.NO_LEER.txt
+echo "What did you expect" > /root/two/books/.Dont_read.txt
 echo "F" > /root/two/books/.entregable.txt
 
-echo -e "1234567\n1234567" | adduser usuario2
+echo -e "1234567\n1234567" | adduser usuario33

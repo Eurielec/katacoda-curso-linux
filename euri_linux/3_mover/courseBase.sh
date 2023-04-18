@@ -1,18 +1,18 @@
-mkdir /root/uno
-mkdir /root/dos
-mkdir /root/tres
-mkdir /root/dos/libros
-mkdir /root/dos/otroDirectorio
-mkdir /root/dos/escuela
-mkdir /root/tres/pedal
-mkdir /root/tres/casco
+mkdir /root/one
+mkdir /root/two
+mkdir /root/three
+mkdir /root/two/books
+mkdir /root/two/anotherDirectory
+mkdir /root/two/school
+mkdir /root/three/pedal
+mkdir /root/three/helmet
 
-echo "No hay nada aqui" > /root/profesor_oak
-echo "Encontraste una superbola!" > /root/dos/conan
-echo "Pssss" > /root/dos/libro/pagina4
-echo "Bro vente a capi" > /root/tres/pedal/cont
-echo "Primer capitulo - Piensa \nSegundo Capitulo - Dilo" > /root/dos/libros/comoComunicarse.txt
-echo "Los filtros FIR, las convoluciones y otras transformadas" > /root/dos/libros/Oppenhein.txt
-echo "Lo nuestro es física o química :S" > /root/dos/libros/tipler.txt
-echo "Que esperabas encontrarte" > /root/dos/libros/.NO_LEER.txt
-echo "F" > /root/dos/libros/.entregable.txt
+echo "Theres nothing here" > /root/profesor_oak
+echo "Superbola mis cojones!" > /root/two/conan
+echo "Pssss" > /root/two/book/page4
+echo "EL NANO AE" > /root/three/pedal/cont
+echo "EL NANO AO" > /root/two/books/howToText.txt
+echo "JAMILTON MASON" > /root/two/books/Oppenhein.txt
+echo "TALAVARA DE LA REINA" > /root/two/books/tipler.txt
+echo "WHat did you expect" > /root/two/books/.Dont_read.txt
+echo "F" > /root/two/books/.entregable.txt

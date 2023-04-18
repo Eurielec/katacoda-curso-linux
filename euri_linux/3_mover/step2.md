@@ -10,4 +10,4 @@ To create a `mydir` directory in the `/tmp` directory:
 
 To create nested directories, the `-p` option is used:
 
-`mkdir -p primero/segundo/tercero`{{ execute }}
+`mkdir -p first/second/third`{{ execute }}
