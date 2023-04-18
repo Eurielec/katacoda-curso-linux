@@ -12,7 +12,7 @@ echo "There's nothing here" > /root/teacher_oak
 echo "You found a superball!" > /root/two/conan
 echo "Pssss" > /root/two/book/page4
 echo "Bro vente a capi" > /root/three/pedal/cont
-echo "First Chapter - Think - Second Chapter - Say it" > /root/two/books/howToComunicate.txt
+echo "First Chapter - Think - Second Chapter - Say it" > /root/two/books/howToCommunicate.txt
 echo "First Chapter - Think - Second Chapter - Say it" > /root/two/libros/howToTalk.txt
 echo "FIR filters, convolutions and other transforms" > /root/two/libros/Oppenhein.txt
 echo "It's either physics or chemistry :S" > /root/two/books/tipler.txt
