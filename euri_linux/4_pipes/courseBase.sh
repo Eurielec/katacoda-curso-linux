@@ -5,7 +5,12 @@ wget https://upload.wikimedia.org/wikipedia/commons/c/ce/SSTV_sunset_audio.ogg -
 wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-07-14-Criptografia-GPG-PGP.md -O crypto_gpg.md
 wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -O garment_workshop.txt
 echo "First chapter - Think - Second chapter - Say it" > asCommunicate.txt
-echo "Eggs \nMilk \nFruit \nVegetables \nChicken \nTuna" > shoppingList
+echo "Eggs 
+      Milk
+      Fruit
+      Vegetables 
+      Chicken
+      Tuna" > shoppingList
 
 echo "Slow ScanTV (SSTV) is a method of transmitting images mainly used by radio amateurs
 used primarily by radio amateurs to transmit and receive static, black-and-white images.

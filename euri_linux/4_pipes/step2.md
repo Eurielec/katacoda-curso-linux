@@ -17,6 +17,6 @@ As we can see, we can see the content of the file `shoppingList` using a redirec
 
 Now we will see the following behaviour:
 
-`cat << END`{{{ execute }}
+`cat << END`{{ execute }}
 
 Try typing some things through the standard input, and now try typing *END*. What happens?
