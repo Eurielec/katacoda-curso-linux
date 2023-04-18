@@ -1,3 +1,3 @@
-En este escenario aprenderemos a mover ficheros, copiar, enlaces simbólicos y algunas cosillas más.
+In this scenario we will learn how to move files, copy, symbolic links and a few other things.
 
-Dale duro!
+Hit it hard!

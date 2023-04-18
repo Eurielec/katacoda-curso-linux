@@ -1,13 +1,13 @@
-`touch` se emplea para establecer o actualizar las fechas de acceso o/y edición de un fichero. Por defecto resetea las fechas de acceso y edición a la fecha actual.
+`touch` is used to set or update the access and/or edit dates of a file. By default it resets the access and edit dates to the current date.
 
-También es posible crear un fichero vacío empleando `touch`:
+It is also possible to create an empty file using `touch`:
 
 `touch myfile`{{ execute }}
 
-Esto usualmente se realiza con el fin de crear un contenedor que posteriormente se llenará.
+This is usually done in order to create a container to be filled later.
 
-`touch` provee de múltiples opciones, pero he aquí la de interés: La opción `-t` permite modificar la fecha y hora de acceso y edición del fichero. El formato de fecha es el siguiente [[SS]AA]MMDDhhmm[.ss]
+The `touch` option provides multiple options, but here is the one of interest: The `-t` option allows you to modify the date and time the file is accessed and edited. The date format is the following [[SS]YY]MMDDhhmm[.ss]
 
 `touch -t 05200800 myfile`{{execute}}
 
-Podremos ver la fecha del fichero con `ls -la`{{ execute }}
+You can see the date of the file with `ls -la`{{ execute }}.

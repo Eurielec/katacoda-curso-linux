@@ -1,35 +1,35 @@
-**Hard links y soft links**
+**Hard links and soft links**
 
-Para explicar esta sección, vamos dirigirnos a otra carpeta con `cd /root/dos/libros`{{ execute }}
+To explain this section, let's go to another folder with `cd /root/dos/libros`{{ execute }}
 
-`ln` se emplea para crear **enlaces duros** (*hard links*) y (con el parámetro -s) **enlaces simbólicos** (*soft links* o *symlinks*). Estos dos tipos de enlace son muy útiles en sistemas UNIX.
+`ln` is used to create **hard links** and (with the -s parameter) **soft links** (*soft links* or *symlinks*). These two types of links are very useful on UNIX systems.
 
-Vamos a crear un **hard link** a `comoComunicarse.txt` que se llame `ComoHablar.txt`. Lo haremos así:
+Let's create a **hard link** to `comoComunicarse.txt` called `ComoHablar.txt`. We will do it like this:
 
 `ln comoComunicarse.txt ComoHablar.txt`
 
-Empleando `ls`{{ execute }} se observa que se ha creado un segundo fichero igual al primero. Sin embargo un análisis más minucioso de ambos ficheros muestra que esto no es del todo cierto.
+Using `ls`{{ execute }} you can see that a second file has been created that is the same as the first. However, a closer look at both files shows that this is not quite true.
 
 `ls -li comoComunicarse.txt ComoHablar.txt`{{ execute }}
 
-La opción `-i` de `ls` muestra en la primera columna el número de inodo, el cual es único para cada objeto. Este campo es igual en ambos ficheros, de lo que se deduce que hay un único objeto pero con dos nombres de fichero asociados a este.
+The `-i` option of `ls` shows in the first column the inode number, which is unique for each object. This field is the same in both files, which means that there is only one object but with two filenames associated to it.
 
-Por otra parte, tenemos los **soft links**, o enlaces simbólicos. Los enlaces simbólicos se crean con la opción -s :
+On the other hand, there are **soft links**, or symbolic links. Symbolic links are created with the -s option:
 
 `ln -s comoComunicarse.txt comoExpresarse.txt`{{ execute }}
 
-¿De qué se trata un enlace simbólico?
+What is a symbolic link about?
 
 `ls -li comoComunicarse.txt comoExpresarse.txt`{{ execute }}
 
-Constatamos que `comoExpresarse.txt` no es un fichero normal, pues claramente apunta a `comoComunicarse.txt` y tiene diferente numeración de inodo.
+We notice that `asExpress.txt` is not a normal file, as it clearly points to `asCommunicate.txt` and has different inode numbering.
 
-Los **enlaces simbólicos** no ocupan espacio extra en el sistema de ficheros (a menos que su nombre sea muy largo). Son muy útiles pues pueden modificarse fácilmente para apuntar a diferentes ficheros. Una forma fácil de alcanzar paths largos desde tu directorio home empleando un acceso directo es crear un enlace simbólico.
+Symbolic links** do not take up extra space on the filesystem (unless their name is very long). They are very useful as they can easily be modified to point to different files. An easy way to reach long paths from your home directory using a shortcut is to create a symbolic link.
 
-A diferencia de los hard links, los **soft links** pueden apuntar a ficheros en otros sistemas de ficheros (o particiones). Éstos pueden estar o no disponibles en este momento o incluso no existir. En el caso de que un enlace apunte a un fichero actualmente no disponible o que no exista, se obtiene un enlace roto, muerto o huérfano (*broken*, *orphaned*, *dead*, or *dangling link*).
+Unlike hard links, **soft links** can point to files on other filesystems (or partitions). These may or may not be available at the moment, or may not even exist. In the case where a link points to a currently unavailable or non-existent file, you get a broken, dead, or orphaned link (*broken*, *orphaned*, *dead*, or *dangling link*).
 
-Ejercicio - Crea un enlace simbólico en el home para r al directorio `/root/dos/otroDirectorio` más rápidamente.
+Exercise - Create a symbolic link in home to go to the `/root/dos/otroDirectorio` directory more quickly.
 
-Los enlaces duros son muy útiles pues ahorran espacio en disco, pero conviene ser cauteloso a la hora de usarlos. La principal razón es que si borras fichero1 o fichero2 del ejemplo de la sección anterior, el inodo que apunta al objeto en disco (y su correspondiente nombre de fichero) se conservarán, esto puede dar lugar a consecuencias indeseables si se vuelve a crear el fichero con el mismo nombre.
+Hard links are very useful as they save disk space, but you should be cautious about using them. The main reason is that if you delete file1 or file2 from the example in the previous section, the inode pointing to the object on disk (and its corresponding filename) will be preserved, which can lead to undesirable consequences if the file is recreated with the same name.
 
-¿Qué pasa si eliminas un *hard link*?¿Se eliminan los dos?¿Qué pasa si modificas uno?¿Y con los enlaces simbólicos?
+What happens if you delete a *hard link*, do they both get deleted, what happens if you modify one, what about symbolic links, and what about the *hard link*?

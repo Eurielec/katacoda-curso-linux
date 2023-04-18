@@ -1,15 +1,15 @@
-**Borrando y renombrando ficheros**
+**Deleting and renaming files**
 
-`mv` Renombrar un fichero
-`rm` Borrar un fichero
-`rm -f` Forzar borrado de un fichero
-`rm -i` Borrado interactivo de un fichero
-`cp` Copiaremos un fichero
+`mv` Renaming a file
+`rm` Delete a file
+`rm -f` Force delete a file
+`rm -i` Delete a file iteratively
+`cp` copy a file
 
-Como hemos visto creamos un fichero con `touch unfichero`{{ execute }}
-Lo podremos mover con `mv unfichero otrofichero`{{ execute }}
-Lo podremos copiar con `cp otrofichero copiafich`{{ execute }}
-Lo borraremos con `rm -i otrofichero`{{ execute }}
+As we have seen we create a file with `touch unfichero`{{ execute }}
+We can move it with `mv unfichero otrofichero`{{ execute }}
+We can copy it with `cp otrofichero copiafich`{{ execute }}
+We delete it with `rm -i otrofichero`{{ execute }}
 
 
-¿Se puede mover un fichero sin utilizar el comando `mv`?
+Is it possible to move a file without using the `mv` command?

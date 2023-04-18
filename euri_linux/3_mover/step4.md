@@ -1,15 +1,15 @@
-**Borrando y renombrando directorios**
+**Deleting and renaming directories**
 
-`mv` Renombrar un directorio
-`rmdir` Borrar un directorio vacío
-`rm -rf` Forzar borrado de un directorio recursivamente
-
-Como hemos visto, podemos crear un directorio con `mkdir mydir`{{ execute }}
-Si no hay nada dentro lo podemos eliminar con `rmdir`{{ execute }}
-
-Crea un directorio y crea un documento dentro con `touch`. Intenta eliminar el directorio... ¿Puedes?¿Que te dice?
+`mv` Renaming a directory
+`rmdir` Delete an empty directory
+`rm -rf` Force deletion of a directory recursively
 
 
-Para borrar un directorio que no esté vacio utiliza `rm -rf`
+As we have seen, we can create a directory with `mkdir mydir`{{ execute }}
+If there is nothing inside we can delete it with `rmdir`{{ execute }}
 
-Y... en cambio...¿Se puede mover un directorio que no esté vacio?
+Create a directory and create a document inside with `touch`. Try to delete the directory... Can you? what does it say?
+
+To delete a directory that is not empty, use `rm -rf`{{rf}}.
+
+And... on the other hand... Can you move a directory that is not empty?

@@ -1,13 +1,13 @@
-Para crear directorios disponemos de `mkdir`.
+To create directories we have `mkdir`.
 
-Para crear un directorio `mydir` en el directorio actual:
+To create a `mydir` directory in the current directory:
 
 `mkdir mydir`{{ execute }}
 
-Para crear un directorio `mydir` en el directorio `/tmp`:
+To create a `mydir` directory in the `/tmp` directory:
 
 `mkdir /tmp/mydir`{{ execute }}
 
-Para crear directorios anidados se emplea la opción `-p`:
+To create nested directories, the `-p` option is used:
 
 `mkdir -p primero/segundo/tercero`{{ execute }}
