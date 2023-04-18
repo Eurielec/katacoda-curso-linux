@@ -6,14 +6,13 @@ wget https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png -
 wget https://upload.wikimedia.org/wikipedia/commons/c/ce/SSTV_sunset_audio.ogg -O sstv.ogg
 wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-07-14-Criptografia-GPG-PGP.md -O cripto_gpg.md
 wget https://raw.githubusercontent.com/HackLab-Almeria/hacklab-almeria.github.io/master/_posts/2015-05-07-Crea-tu-Ropa-2-0-con-Arduino.md -O taller_ropa.txt
-echo "Primer capitulo - Piensa
-Segundo Capitulo - Dilo" > comoComunicarse.txt
-echo "Huevos
-Leche
-Fruta
-Verdura
-Pollo
-Atun" > listaDeLaCompra
+echo "EL NANO AO" > howToText.txt
+echo "EGGS
+MILK
+FRUIT
+VEGETABLES
+CHICKEN
+TUNA" > ShoppingList
 
 #mkdir /root/uno
 #mkdir /root/dos

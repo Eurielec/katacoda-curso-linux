@@ -13,6 +13,6 @@ It is often more convenient to use relative paths as they require less typing. T
 
 **Ejercicio** ->
 
-Go to `/root/dos/otroDirectorio`. Try going to `/root/tres/casco`.
+Go to `/root/two/anotherDirectory`. Try going to `/root/three/helmet`.
 
 In principle there are 3 ways. Using an absolute path and using relative path with `~` or `../../`. Is there any other way?
