@@ -12,7 +12,7 @@ echo "Eggs
       Chicken
       Tuna" > shoppingList
 
-echo "Slow ScanTV (SSTV) is a method of transmitting images mainly used by radio amateurs
+echo "Slow ScanTV (SSTV) is a method for transmitting images mainly used by radio amateurs
 used primarily by radio amateurs to transmit and receive static, black-and-white images.
 static, black-and-white or colour images via radio.
 
